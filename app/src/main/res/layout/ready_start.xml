@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#945313">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="位置:"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView" />
+    <EditText
+        android:layout_toEndOf="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="颜色"
+        android:textSize="60sp"
+        android:textColor="#73CF3E"
+        android:id="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+    <!--<EditText
+        android:layout_toEndOf="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:id="@+id/editText" />-->
+
+    <RadioButton
+        android:id="@+id/radioButton_brown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D66A00"
+        android:textSize="30sp"
+        android:text="棕色"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        android:text="绿色"
+        android:textSize="30sp"
+        android:textColor="#428E09"
+        android:layout_above="@+id/radioButton_brown"
+        android:layout_toEndOf="@+id/radioButton_brown" />
+
+    <RadioButton
+        android:id="@+id/radioButton_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:textSize="30sp"
+        android:textColor="#940398"
+        android:text="紫色"
+        android:layout_above="@+id/radioButton_green"
+        android:layout_toEndOf="@+id/radioButton_blue" />
+
+    <RadioButton
+        android:id="@+id/radioButton_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝色"
+        android:textSize="30sp"
+        android:textColor="#006EBF"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/radioButton_purple"
+        android:layout_alignStart="@+id/radioButton_brown" />
+
+    <RadioButton
+        android:id="@+id/radioButton_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="红色"
+        android:textColor="#C41A16"
+        android:layout_alignBaseline="@+id/radioButton_purple"
+        android:layout_alignBottom="@+id/radioButton_purple"
+        android:layout_toStartOf="@+id/radioButton_blue" />
+
+    <RadioButton
+        android:id="@+id/radioButton_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黄色"
+        android:textSize="30sp"
+        android:textColor="#CAA402"
+        android:layout_alignBaseline="@+id/radioButton_green"
+        android:layout_alignBottom="@+id/radioButton_green"
+        android:layout_toStartOf="@+id/radioButton_brown" />
+
+    <Button
+        android:id="@+id/bt_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        android:textSize="40sp"
+        android:background="#945313"
+        android:textColor="#73CF3E"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="44dp"
+        android:text="内容" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- 定义一个文本框，它用于接受用户的输入 -->
+        <EditText
+            android:id="@+id/et_data"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_send_data"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8px"
+            android:text="发送消息" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="50dp"
+        android:text="IP" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8px"
+        android:text="开始游戏"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

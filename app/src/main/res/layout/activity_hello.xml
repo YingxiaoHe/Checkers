@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#945313">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="113dp"
+        android:text="跳棋游戏"
+        android:textColor="#73CF3E"
+        android:textSize="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp">
+
+        <Button
+            android:id="@+id/btn_startGame"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:text="开始游戏"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_option"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:text="选项设置"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_endGame"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:text="退出游戏"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#005098">
+
+
+    <LinearLayout
+        android:id="@+id/menu_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+       <!-- <Button
+            android:id="@+id/btn_menu_back"
+            android:layout_width="370px"
+            android:layout_height="130px"
+            android:background="@drawable/btn_background"
+            android:text="返回主页"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/btn_menu_restartGame"
+            android:layout_width="370px"
+            android:layout_height="130px"
+            android:background="@drawable/btn_background"
+            android:text="重新开始"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <!--<Button
+            android:id="@+id/btn_menu_choose"
+            android:layout_width="370px"
+            android:layout_height="130px"
+            android:background="@drawable/btn_background"
+            android:text="选择难度"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/btn_menu_option"
+            android:layout_width="370px"
+            android:layout_height="130px"
+            android:background="@drawable/btn_background"
+            android:text="选        项"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_menu_endGame"
+            android:layout_width="370px"
+            android:layout_height="130px"
+            android:background="@drawable/btn_background"
+            android:text="退出游戏"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
